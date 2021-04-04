@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ColourHub</title>
+  
+  
+  <link href="https://colourfulywj.cn/atom.xml" rel="self"/>
+  
+  <link href="https://colourfulywj.cn/"/>
+  <updated>2021-03-31T15:13:56.422Z</updated>
+  <id>https://colourfulywj.cn/</id>
+  
+  <author>
+    <name>Colourful</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Schrodinger</title>
+    <link href="https://colourfulywj.cn/2021/03/16/Schrodinger/"/>
+    <id>https://colourfulywj.cn/2021/03/16/Schrodinger/</id>
+    <published>2021-03-16T14:11:36.000Z</published>
+    <updated>2021-03-31T15:13:56.422Z</updated>
+    
+    <content type="html"><![CDATA[<p>自由粒子的一般状态方程：</p><p><img src="E:\FFOutput\CodeCogsEqn.jpg" alt="p1"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;自由粒子的一般状态方程：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;E:\FFOutput\CodeCogsEqn.jpg&quot; alt=&quot;p1&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
