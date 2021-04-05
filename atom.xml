@@ -6,7 +6,7 @@
   <link href="https://colourfulywj.cn/atom.xml" rel="self"/>
   
   <link href="https://colourfulywj.cn/"/>
-  <updated>2021-04-05T09:25:28.613Z</updated>
+  <updated>2021-04-05T09:41:15.493Z</updated>
   <id>https://colourfulywj.cn/</id>
   
   <author>
@@ -21,17 +21,16 @@
     <link href="https://colourfulywj.cn/2021/03/16/Schrodinger/"/>
     <id>https://colourfulywj.cn/2021/03/16/Schrodinger/</id>
     <published>2021-03-16T14:11:36.000Z</published>
-    <updated>2021-04-05T09:25:28.613Z</updated>
+    <updated>2021-04-05T09:41:15.493Z</updated>
     
-    <content type="html"><![CDATA[<p>mathjax: true</p><p>自由粒子的一般状态方程：</p><p><img src="/2021/03/16/Schrodinger/Blog\source\img\CodeCogsEqn.png" alt="CodeCogsEqn"></p><p>$ih\psi \left ( \underset{r}{\rightarrow} ,t\right )=$</p>]]></content>
+    <content type="html"><![CDATA[<p>自由粒子的一般状态方程：</p><p><img src="/2021/03/16/Schrodinger/Blog\source\img\CodeCogsEqn.png" alt="CodeCogsEqn"></p><p>$ih\psi \left ( \underset{r}{\rightarrow} ,t\right )=$</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;mathjax: true&lt;/p&gt;
-&lt;p&gt;自由粒子的一般状态方程：&lt;/p&gt;
+    <summary type="html">&lt;p&gt;自由粒子的一般状态方程：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/2021/03/16/Schrodinger/Blog\source\img\CodeCogsEqn.png&quot; alt=&quot;CodeCogsEqn&quot;&gt;&lt;/p&gt;
-&lt;p&gt;$ih</summary>
+&lt;p&gt;$ih\psi \left ( \underse</summary>
       
     
     
