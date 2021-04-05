@@ -6,7 +6,7 @@
   <link href="https://colourfulywj.cn/atom.xml" rel="self"/>
   
   <link href="https://colourfulywj.cn/"/>
-  <updated>2021-04-05T12:55:41.070Z</updated>
+  <updated>2021-04-05T13:11:33.312Z</updated>
   <id>https://colourfulywj.cn/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="https://colourfulywj.cn/2021/03/16/Schrodinger/"/>
     <id>https://colourfulywj.cn/2021/03/16/Schrodinger/</id>
     <published>2021-03-16T14:11:36.000Z</published>
-    <updated>2021-04-05T12:55:41.070Z</updated>
+    <updated>2021-04-05T13:11:33.312Z</updated>
     
-    <content type="html"><![CDATA[<p>自由粒子的一般状态方程：</p><p>$i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)$</p><p>在势场中的粒子的波函数满足的微分方程：</p><p>$i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)+V(\mathbf{r}) \Psi(\mathbf{r}, t)$</p>]]></content>
+    <content type="html"><![CDATA[<p>自由粒子的一般状态方程：</p><script type="math/tex; mode=display">i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)</script><p>在势场中的粒子的波函数满足的微分方程：</p><script type="math/tex; mode=display">i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)+V(\mathbf{r}) \Psi(\mathbf{r}, t)</script>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;自由粒子的一般状态方程：&lt;/p&gt;
-&lt;p&gt;$i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)$&lt;/p&gt;
-&lt;</summary>
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \na</summary>
       
     
     
