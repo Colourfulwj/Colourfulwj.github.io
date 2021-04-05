@@ -1,1 +1,1 @@
-[{"title":"Schrodinger","date":"2021-03-16T14:11:36.000Z","url":"/2021/03/16/Schrodinger/","categories":[["undefined",""]],"content":"mathjax: true 自由粒子的一般状态方程： $ih\\psi \\left ( \\underset{r}{\\rightarrow} ,t\\right )=$"}]
+[{"title":"Schrodinger","date":"2021-03-16T14:11:36.000Z","url":"/2021/03/16/Schrodinger/","categories":[["undefined",""]],"content":"mathjax: true 自由粒子的一般状态方程： $ih\\frac{\\partial }{\\partial t}\\psi \\left ( \\overrightarrow{r},t \\right ) = -\\frac{h^{2}}{2m}\\triangledown ^{2}\\psi \\left ( \\overrightarrow{r},t \\right )$"}]
