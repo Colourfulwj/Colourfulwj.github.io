@@ -6,7 +6,7 @@
   <link href="https://colourfulywj.cn/atom.xml" rel="self"/>
   
   <link href="https://colourfulywj.cn/"/>
-  <updated>2021-04-05T15:10:36.433Z</updated>
+  <updated>2021-04-05T15:12:28.110Z</updated>
   <id>https://colourfulywj.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://colourfulywj.cn/2021/03/16/Schrodinger/"/>
     <id>https://colourfulywj.cn/2021/03/16/Schrodinger/</id>
     <published>2021-03-16T14:11:36.000Z</published>
-    <updated>2021-04-05T15:10:36.433Z</updated>
+    <updated>2021-04-05T15:12:28.110Z</updated>
     
-    <content type="html"><![CDATA[<p>自由粒子的一般状态方程：</p><script type="math/tex; mode=display">i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)</script><p>在势场中的粒子的波函数满足的微分方程：</p><script type="math/tex; mode=display">i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)+V(\mathbf{r}) \Psi(\mathbf{r}, t)</script><p>一维无限深方势阱   <script type="math/tex">V(x)=\left\{\begin{array}{ll}0, & 0<x<a \\\infty, & x<0, x>a\end{array}\right.</script>   中的定态能量和波函数为</p><script type="math/tex; mode=display">E_{n}=\frac{n^{2} \pi^{2} \hbar^{2}}{2 \mu a^{2}}, \quad n=1,2, \cdots</script><script type="math/tex; mode=display">\psi_{n}(x)=\left\{\begin{array}{ll}\sqrt{\frac{2}{a}} \sin \frac{n \pi x}{a}, & 0<x<a \\0, & x<0, x>a\end{array}\right.</script><p>如果坐标原点取在势阱中心，则定态波函数为</p><script type="math/tex; mode=display">\psi_{n}(x)=\left\{\begin{array}{cl}\sqrt{\frac{2}{a}} \sin \left[\frac{n \pi}{a}\left(x+\frac{a}{2}\right)\right], & |x|<\frac{a}{2} \\ 0, & |x|>\frac{a}{2}\end{array}\right.</script> <p><img src="/2021/03/16/Schrodinger/img\banner.jpg" alt="banner"></p>]]></content>
+    <content type="html"><![CDATA[<p>自由粒子的一般状态方程：</p><script type="math/tex; mode=display">i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)</script><p>在势场中的粒子的波函数满足的微分方程：</p><script type="math/tex; mode=display">i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r}, t)=-\frac{\hbar^{2}}{2 m} \nabla^{2} \Psi(\mathbf{r}, t)+V(\mathbf{r}) \Psi(\mathbf{r}, t)</script><p>一维无限深方势阱   <script type="math/tex">V(x)=\left\{\begin{array}{ll}0, & 0<x<a \\\infty, & x<0, x>a\end{array}\right.</script>   中的定态能量和波函数为</p><script type="math/tex; mode=display">E_{n}=\frac{n^{2} \pi^{2} \hbar^{2}}{2 \mu a^{2}}, \quad n=1,2, \cdots</script><script type="math/tex; mode=display">\psi_{n}(x)=\left\{\begin{array}{ll}\sqrt{\frac{2}{a}} \sin \frac{n \pi x}{a}, & 0<x<a \\0, & x<0, x>a\end{array}\right.</script><p>如果坐标原点取在势阱中心，则定态波函数为</p><script type="math/tex; mode=display">\psi_{n}(x)=\left\{\begin{array}{cl}\sqrt{\frac{2}{a}} \sin \left[\frac{n \pi}{a}\left(x+\frac{a}{2}\right)\right], & |x|<\frac{a}{2} \\ 0, & |x|>\frac{a}{2}\end{array}\right.</script> ]]></content>
     
     
       
