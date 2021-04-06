@@ -24,7 +24,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://colourfulywj.cn/images/favicon.png">
 <meta property="article:published_time" content="2021-04-06T14:07:03.000Z">
-<meta property="article:modified_time" content="2021-04-06T15:09:06.234Z">
+<meta property="article:modified_time" content="2021-04-06T15:14:20.744Z">
 <meta property="article:author" content="Colourful">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://colourfulywj.cn/images/favicon.png">
@@ -132,7 +132,7 @@
             </header>
             <div class="kratos-post-content">
                 <div id="expire-alert" class="alert alert-warning hidden" role="alert">
-                    本文最后编辑于 <time datetime="1617721746234"></time> 前，其中的内容可能需要更新。
+                    本文最后编辑于 <time datetime="1617722060744"></time> 前，其中的内容可能需要更新。
                 </div>
                 
                 <hr />
@@ -144,10 +144,10 @@
 <h3 id="Ⅱ-寄存器寻址"><a href="#Ⅱ-寄存器寻址" class="headerlink" title="Ⅱ)寄存器寻址"></a><strong>Ⅱ)寄存器寻址</strong></h3><p>操作数在CPU内部的通用寄存器中，指令中指定寄存器名(机器指令中为寄存器的二进制编号)，这种寻址方式称为寄存器寻址。其汇编语言格式为:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">寄存器名</span><br><span class="line"></span><br><span class="line">MOV AX, CX</span><br><span class="line">MOV DL, BL</span><br></pre></td></tr></table></figure>
 <p>可以使用以下寄存器：</p>
-<p>(1) 16位通用寄存器: AX、BX、CX、DX、SI、DI、BX、BX</p>
-<p>(2) 8位通用寄存器: AH、AL、BH、BL、CH、CL、DH、DL。</p>
-<p>(3)段寄存器: CS、DS、SS、ES.</p>
-<p>(4) FLAGS标志寄存器。</p>
+<p>(1) 16位通用寄存器: <strong>AX</strong>、<strong>BX</strong>、<strong>CX</strong>、<strong>DX</strong>、<strong>SI</strong>、<strong>DI</strong>、<strong>BX</strong>、<strong>BX</strong></p>
+<p>(2) 8位通用寄存器: <strong>AH</strong>、<strong>AL</strong>、<strong>BH</strong>、<strong>BL</strong>、<strong>CH</strong>、<strong>CL</strong>、<strong>DH</strong>、<strong>DL</strong>。</p>
+<p>(3)段寄存器: <strong>CS</strong>、<strong>DS</strong>、<strong>SS</strong>、<strong>ES</strong>.</p>
+<p>(4) <strong>FLAGS</strong>标志寄存器。</p>
 <h3 id="Ⅲ）存储器寻址"><a href="#Ⅲ）存储器寻址" class="headerlink" title="Ⅲ）存储器寻址"></a><strong>Ⅲ）存储器寻址</strong></h3><p>存储器寻址方式，就是通过形式地址计算出操作数有效地址的过程，包括直接寻址、寄存器间接寻址、寄存器相对寻址、基址加变址寻址、相对基址加变址寻址。</p>
 <h4 id="1）直接寻址"><a href="#1）直接寻址" class="headerlink" title="1）直接寻址"></a>1）直接寻址</h4><p>操作数在内存中，操作数的邮箱地址有指令地址码字段直接给出，这种方式称为<strong>直接寻址</strong>。直接寻址方式默认的段寄存器是DS。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">EA &#x3D; DISP</span><br><span class="line"></span><br><span class="line">MOV AL, TABLE</span><br><span class="line">MOW AL, [TABLE]</span><br><span class="line">MOV AL, [1000H]</span><br></pre></td></tr></table></figure>
@@ -416,21 +416,5 @@
 <!-- Extra support for third-party plguins  -->
 
 
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
-</body>
+    </body>
 </html>
