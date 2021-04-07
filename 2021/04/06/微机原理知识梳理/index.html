@@ -24,7 +24,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://colourfulywj.cn/images/favicon.png">
 <meta property="article:published_time" content="2021-04-06T14:07:03.000Z">
-<meta property="article:modified_time" content="2021-04-07T04:54:45.613Z">
+<meta property="article:modified_time" content="2021-04-07T05:32:35.239Z">
 <meta property="article:author" content="Colourful">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://colourfulywj.cn/images/favicon.png">
@@ -123,7 +123,7 @@
                         <i class="fa fa-edit"></i> 
                         
                         
-                            1311
+                            ~1.55K
                         
                         字
                     </li>
@@ -132,7 +132,7 @@
             </header>
             <div class="kratos-post-content">
                 <div id="expire-alert" class="alert alert-warning hidden" role="alert">
-                    本文最后编辑于 <time datetime="1617771285613"></time> 前，其中的内容可能需要更新。
+                    本文最后编辑于 <time datetime="1617773555239"></time> 前，其中的内容可能需要更新。
                 </div>
                 
                 <hr />
@@ -161,7 +161,12 @@
 <p>，这种方式称为相对基址加变址寻址。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">MOV AL, TABLE[BX][SI]</span><br><span class="line">MOV AL, TABLE[BX + SI]</span><br><span class="line">MOV AL, [TABLE + BX + SI]</span><br></pre></td></tr></table></figure>
 <h3 id="Ⅳ）IO端口寻址"><a href="#Ⅳ）IO端口寻址" class="headerlink" title="Ⅳ）IO端口寻址"></a>Ⅳ）IO端口寻址</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">IN AL, n       ;n为0~255，将端口的字节操作数输入到AL寄存器</span><br><span class="line"></span><br><span class="line">OUT DX， AL    ;DX为0~65535， 将AL的字节内容输出到由DX指定的端口中</span><br></pre></td></tr></table></figure>
-
+<h2 id="2-指令寻址方式"><a href="#2-指令寻址方式" class="headerlink" title="2.指令寻址方式"></a>2.指令寻址方式</h2><p>指令寻址方式是指确定下一条将要执行指令地址的方法，有<strong>顺序寻址方式</strong>和<strong>跳转寻址方式</strong>两种</p>
+<h3 id="跳转寻址方式"><a href="#跳转寻址方式" class="headerlink" title="跳转寻址方式"></a>跳转寻址方式</h3><h4 id="1）段内直接寻址"><a href="#1）段内直接寻址" class="headerlink" title="1）段内直接寻址"></a>1）段内直接寻址</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">指令名 SHORT 目标地址标记</span><br><span class="line">指令名 NEAR PTR 目标地址标记</span><br><span class="line">指令名 目标地址标记</span><br></pre></td></tr></table></figure>
+<h4 id="2）段间直接寻址"><a href="#2）段间直接寻址" class="headerlink" title="2）段间直接寻址"></a>2）段间直接寻址</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">指令名 FAR PTR 目标地址标记</span><br><span class="line">指令名 段地址：段偏移地址</span><br></pre></td></tr></table></figure>
+<h4 id="3）段内间接寻址"><a href="#3）段内间接寻址" class="headerlink" title="3）段内间接寻址"></a>3）段内间接寻址</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">指令名 16位寄存器名</span><br><span class="line">指令名 WORD PTR 存储器寻址方式</span><br><span class="line">指令名 存储器寻址方式</span><br></pre></td></tr></table></figure>
+<h4 id="4）段间间接寻址"><a href="#4）段间间接寻址" class="headerlink" title="4）段间间接寻址"></a>4）段间间接寻址</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">指令名 DWORD PTR 存储器寻址方式</span><br></pre></td></tr></table></figure>
+<h2 id="指令系统"><a href="#指令系统" class="headerlink" title="指令系统"></a>指令系统</h2>
             </div>
             
                 <div class="kratos-copyright text-center clearfix">
