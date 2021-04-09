@@ -24,7 +24,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://colourfulywj.cn/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/68.jpg">
 <meta property="article:published_time" content="2021-04-06T14:07:03.000Z">
-<meta property="article:modified_time" content="2021-04-09T13:17:51.955Z">
+<meta property="article:modified_time" content="2021-04-09T13:30:51.485Z">
 <meta property="article:author" content="Colourful">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://colourfulywj.cn/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/68.jpg">
@@ -132,7 +132,7 @@
             </header>
             <div class="kratos-post-content">
                 <div id="expire-alert" class="alert alert-warning hidden" role="alert">
-                    本文最后编辑于 <time datetime="1617974271955"></time> 前，其中的内容可能需要更新。
+                    本文最后编辑于 <time datetime="1617975051485"></time> 前，其中的内容可能需要更新。
                 </div>
                 
                     <div class="kratos-post-inner-toc">
@@ -380,26 +380,25 @@
 </table>
 </div>
 <p>NOT指令不影响标志位，其余四条指令都使CF和OF为0，对AF无定义，按运算结果设置SF、PF、ZF。TEST指令与AND指令的运算功能完全相同，差别京在于不将结果送回目的，二十通过逻辑与运算影响标志位。</p>
-<h3 id="4-3-4位移指令"><a href="#4-3-4位移指令" class="headerlink" title="4.3.4位移指令"></a>4.3.4位移指令</h3><h4 id="1）算术移位指令"><a href="#1）算术移位指令" class="headerlink" title="1）算术移位指令"></a>1）算术移位指令</h4><p>①算术左移指令SAL</p>
-<p>功能：左移一次，最低位补0，最高位送入CF标志位，如图：</p>
+<h3 id="4-3-4位移指令"><a href="#4-3-4位移指令" class="headerlink" title="4.3.4位移指令"></a>4.3.4位移指令</h3><h4 id="1）算术移位指令"><a href="#1）算术移位指令" class="headerlink" title="1）算术移位指令"></a>1）算术移位指令</h4><p>①算术左移指令<strong>SAL</strong>，左移一次，最低位补0，最高位送入CF标志位，如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/SAL.png" class>
 <p>意义：左移n次，等于x2的n次幂。所以可用于有符号操作数做x2的n次幂运算。</p>
-<p>②算术右移指令SAR，右移一次，最高位保持不变，最低位送入CF标志位，如图：</p>
+<p>②算术右移指令<strong>SAR</strong>，右移一次，最高位保持不变，最低位送入CF标志位，如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/SAR.png" class>
 <p>意义：右移n次，等于/2的n次幂。所以可用于有符号操作数做/2的n次幂运算。</p>
-<h4 id="2）逻辑移位指令"><a href="#2）逻辑移位指令" class="headerlink" title="2）逻辑移位指令"></a>2）逻辑移位指令</h4><p>①逻辑左移SHL，同SAL,如图：</p>
+<h4 id="2）逻辑移位指令"><a href="#2）逻辑移位指令" class="headerlink" title="2）逻辑移位指令"></a>2）逻辑移位指令</h4><p>①逻辑左移<strong>SHL</strong>，同SAL,如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/SHL.png" class>
 <p>意义：同SAL</p>
-<p>②逻辑右移SHR，右移一次，最高位补0.区别！最低位送入CF标志位。如图：</p>
+<p>②逻辑右移<strong>SHR</strong>，右移一次，最高位补0.区别！最低位送入CF标志位。如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/SHR.png" class>
 <p>意义：用于实现无符号数/2的n次幂操作。</p>
-<h4 id="3）循环移位指令"><a href="#3）循环移位指令" class="headerlink" title="3）循环移位指令"></a>3）循环移位指令</h4><p>①循环左移指令ROL，左移一次，左移前的最高位送入最低位以及CF.如图：</p>
+<h4 id="3）循环移位指令"><a href="#3）循环移位指令" class="headerlink" title="3）循环移位指令"></a>3）循环移位指令</h4><p>①循环左移指令<strong>ROL</strong>，左移一次，左移前的最高位送入最低位以及CF.如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/ROL.png" class>
-<p>②循环右移指令ROR，右移一次，右移前的最低位送入最高位以及CF.如图：</p>
+<p>②循环右移指令<strong>ROR</strong>，右移一次，右移前的最低位送入最高位以及CF.如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/ROR.png" class>
-<p>③带进位的循环左移RCL，左移一次，左移前的最高位送入CF，CF的内容送入最低位.如图：</p>
+<p>③带进位的循环左移<strong>RCL</strong>，左移一次，左移前的最高位送入CF，CF的内容送入最低位.如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/RCL.png" class>
-<p>④带进位的循环右移RCR，右移一次，右移前的最低位送入CF，CF的内容送入最高位.如图：</p>
+<p>④带进位的循环右移<strong>RCR</strong>，右移一次，右移前的最低位送入CF，CF的内容送入最高位.如图：</p>
 <img src="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/RCR.png" class>
 <h3 id="4-3-5串操作指令（不做要求）"><a href="#4-3-5串操作指令（不做要求）" class="headerlink" title="4.3.5串操作指令（不做要求）"></a>4.3.5串操作指令（不做要求）</h3><h3 id="4-3-6程序控制指令-不影响标志位"><a href="#4-3-6程序控制指令-不影响标志位" class="headerlink" title="4.3.6程序控制指令(不影响标志位)"></a>4.3.6程序控制指令(不影响标志位)</h3><h4 id="1）转移指令"><a href="#1）转移指令" class="headerlink" title="1）转移指令"></a>1）转移指令</h4><p>①无条件转移指令JMP</p>
 <div class="table-container">
