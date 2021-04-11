@@ -107,58 +107,6 @@
             <div class="container">
                 <div id="main" class="row">
                     
-                        
-
-<section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
-    <!-- 文章和页面根据splitter来分割，没有的话就从头开始设置为sticky -->
-    
-        <div class="sticky-area">
-    
-    
-                <aside id="krw-about" class="widget widget-kratos-about clearfix">
-    <div class="photo-background"></div>
-    <div class="photo-wrapper clearfix">
-        <div class="photo-wrapper-tip text-center">
-            <img class="about-photo" src="/images/avatar.jpg" />
-        </div>
-    </div>
-    <div class="textwidget">
-        <p class="text-center">天不造人上人，亦不造人下人!</p>
-    </div>
-</aside>
-            
-                
-
-            
-                
-            
-                
-  <aside id="krw-posts" class="widget widget-kratos-posts">
-  <h4 class="widget-title"><i class="fa fa-file"></i>最新文章</h4>
-  <div class="tab-content">
-      <ul class="list-group">
-        
-        
-          
-          
-            <a class="list-group-item" href="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/"><i class="fa  fa-book"></i> 微机原理知识梳理</a>
-            
-          
-        
-          
-          
-            <a class="list-group-item" href="/2021/03/16/Schrodinger/"><i class="fa  fa-book"></i> Schrodinger</a>
-            
-          
-        
-      </ul>
-  </div>
-  </aside>
-
-            
-    </div>
-</section>
-                    
 
         <section class="col-md-8">
   <style>
@@ -257,6 +205,58 @@
     </section>
 
                 
+            
+
+<section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
+    <!-- 文章和页面根据splitter来分割，没有的话就从头开始设置为sticky -->
+    
+        <div class="sticky-area">
+    
+    
+                <aside id="krw-about" class="widget widget-kratos-about clearfix">
+    <div class="photo-background"></div>
+    <div class="photo-wrapper clearfix">
+        <div class="photo-wrapper-tip text-center">
+            <img class="about-photo" src="/images/avatar.jpg" />
+        </div>
+    </div>
+    <div class="textwidget">
+        <p class="text-center">天不造人上人，亦不造人下人!</p>
+    </div>
+</aside>
+            
+                
+
+            
+                
+            
+                
+  <aside id="krw-posts" class="widget widget-kratos-posts">
+  <h4 class="widget-title"><i class="fa fa-file"></i>最新文章</h4>
+  <div class="tab-content">
+      <ul class="list-group">
+        
+        
+          
+          
+            <a class="list-group-item" href="/2021/04/06/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86/"><i class="fa  fa-book"></i> 微机原理知识梳理</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/2021/03/16/Schrodinger/"><i class="fa  fa-book"></i> Schrodinger</a>
+            
+          
+        
+      </ul>
+  </div>
+  </aside>
+
+            
+    </div>
+</section>
+        
         </div>
     </div>
 </div>
@@ -361,5 +361,21 @@
 <!-- Extra support for third-party plguins  -->
 
 
-    </body>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+</body>
 </html>
