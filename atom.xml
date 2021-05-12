@@ -6,7 +6,7 @@
   <link href="https://colourfulywj.cn/atom.xml" rel="self"/>
   
   <link href="https://colourfulywj.cn/"/>
-  <updated>2021-04-23T15:33:00.766Z</updated>
+  <updated>2021-05-12T14:17:49.463Z</updated>
   <id>https://colourfulywj.cn/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一维定态Schrodinger方程在均匀势场区域内的通解</title>
+    <link href="https://colourfulywj.cn/2021/05/12/%E4%B8%80%E7%BB%B4%E5%AE%9A%E6%80%81Schrodinger%E6%96%B9%E7%A8%8B%E5%9C%A8%E5%9D%87%E5%8C%80%E5%8A%BF%E5%9C%BA%E5%8C%BA%E5%9F%9F%E5%86%85%E7%9A%84%E9%80%9A%E8%A7%A3/"/>
+    <id>https://colourfulywj.cn/2021/05/12/%E4%B8%80%E7%BB%B4%E5%AE%9A%E6%80%81Schrodinger%E6%96%B9%E7%A8%8B%E5%9C%A8%E5%9D%87%E5%8C%80%E5%8A%BF%E5%9C%BA%E5%8C%BA%E5%9F%9F%E5%86%85%E7%9A%84%E9%80%9A%E8%A7%A3/</id>
+    <published>2021-05-12T09:54:00.000Z</published>
+    <updated>2021-05-12T14:17:49.463Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><p>已知一维定态Schrodinger方程为：</p><script type="math/tex; mode=display">\frac{\mathrm{d}^{2}}{\mathrm{~d} x^{2}} \psi(x)+\frac{2 m}{\hbar^{2}}[E-V(x)] \psi(x)=0</script><p>设在 <script type="math/tex">x</script> 轴上区间 <script type="math/tex">\left[x_{1}, x_{2}\right]</script> 范围内，势能函数是一个均匀常数，则在此区间内一维定态Schrodinger方程就变为二阶线性齐次常系数微分方程，即在这个 <script type="math/tex">\left[x_{1}, x_{2}\right]</script> 区间内</p><script type="math/tex; mode=display">\left.\begin{array}{rl}\alpha & =\left[\frac{2 m}{\hbar^{2}}[E-V(x)]\right]^{1 / 2} \\\beta & =\left[\frac{2 m}{\hbar^{2}}[V(x)-E]\right]^{1 / 2}\end{array}\right\} \alpha=\mathrm{i} \beta</script><p>上式中的 α 和 β 也为常数，则在这个区间内一维定态Schrodinger方程的特征方程若存在两个互异的实根，则其通解为</p><script type="math/tex; mode=display">\psi(x)=A \mathrm{e}^{\mathrm{i} \alpha x}+B \mathrm{e}^{-\mathrm{i} \alpha x} \quad(A, B \text { 为复常数 })(1)</script><p>或</p><script type="math/tex; mode=display">\psi(x)=A \mathrm{e}^{-\beta x}+B \mathrm{e}^{\beta x} \quad(A, B \text { 为复常数 })(2)</script><ol><li>若在 <script type="math/tex">\left[x_{1}, x_{2}\right]</script> 范围内 <script type="math/tex">E=V(x)</script></li></ol><script type="math/tex; mode=display">\alpha=\beta=0$$ ，则一维定态Schrodinger方程有2重实根，通解为：</script><p>\psi(x)=A+B x \quad(A, B \text { 为复常数 })</p><script type="math/tex; mode=display">2. 若在 $$\left[x_{1}, x_{2}\right]$$ 范围内 $$E>V(x)$$ (经典允许区)α 为正实数，β 为负纯虚数，此时一维定态Schrodinger方程的通解取式 (1) 的形式：</script><p>\psi(x)=A \mathrm{e}^{\mathrm{i} \alpha x}+B \mathrm{e}^{-\mathrm{i} \alpha x} \quad(A, B \text { 为复常数 })</p><script type="math/tex; mode=display">也可以写成</script><p>\psi(x)=(A+B) \cos (\alpha x)+(\mathrm{i} A-\mathrm{i} B) \sin (\alpha x)</p><script type="math/tex; mode=display">设</script><p>A+B=C,  \mathrm{i} A-\mathrm{i} B=D</p><script type="math/tex; mode=display">，则</script><p>\psi(x)=C \cos \alpha x+D \sin \alpha x \quad(C, D \text { 为复常数 })</p><script type="math/tex; mode=display">即在势场均匀区域 $$\left[x_{1}, x_{2}\right]$$ 内，若 $$E>V(x)$$ ，则在该区域内的 $$\psi(x)$$ 必是按照</script><p>\sin \alpha x</p><script type="math/tex; mode=display">和</script><p>\cos \alpha x</p><script type="math/tex; mode=display">进行振荡的形式。3. 若在 $$\left[x_{1}, x_{2}\right]$$ 范围内 $$E<V(x)$$ (经典禁区)α 为正纯虚数，β 为正实数，此时一维定态Schrodinger方程的通解取式 (2) 的形式：</script><p>\psi(x)=A \mathrm{e}^{-\beta x}+B e^{\beta x} \quad(A, B \text { 为复常数 })</p><p><script type="math/tex">此时在区间</script>\left[x_{1}, x_{2}\right]<script type="math/tex">，</script>\psi(x)$$ 不再是振荡解的形式，而是 e 指数解的形式。</p><p> <script type="math/tex">\psi(x)=A+B x</script> ， <script type="math/tex">\psi(x)=C \cos \alpha x+D \sin \alpha x</script> ， <script type="math/tex">\psi(x)=A \mathrm{e}^{-\beta x}+B e^{\beta x}</script> 都是一维定态Schrodinger方程在均匀势场中的通解。我们约定：如果 α 是正实数，则一维定态Schrodinger方程在均匀势场中的通解取 <script type="math/tex">\psi(x)=A+B x</script> 或  <script type="math/tex">\psi(x)=C \cos \alpha x+D \sin \alpha x</script>   的形式；如果β 为正实数，则一维定态Schrodinger方程在均匀势场中的通解取 <script type="math/tex">\psi(x)=A \mathrm{e}^{-\beta x}+B e^{\beta x}</script> 的形式。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;已知一维定态Schrodinger方程为：&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+\frac{\mathrm{d}^{2}}{\mathrm{~d} x^{2}} \psi(x)+\frac</summary>
+      
+    
+    
+    
+    <category term="量子力学" scheme="https://colourfulywj.cn/categories/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>任意线性算符Hermite的分解</title>
     <link href="https://colourfulywj.cn/2021/04/23/%E4%BB%BB%E6%84%8F%E7%BA%BF%E6%80%A7%E7%AE%97%E7%AC%A6Hermite%E7%9A%84%E5%88%86%E8%A7%A3/"/>
     <id>https://colourfulywj.cn/2021/04/23/%E4%BB%BB%E6%84%8F%E7%BA%BF%E6%80%A7%E7%AE%97%E7%AC%A6Hermite%E7%9A%84%E5%88%86%E8%A7%A3/</id>
     <published>2021-04-23T11:50:47.000Z</published>
-    <updated>2021-04-23T15:33:00.766Z</updated>
+    <updated>2021-05-12T09:57:39.256Z</updated>
     
     <content type="html"><![CDATA[<p>设有任意一个算符<script type="math/tex">\hat{A}</script>（<script type="math/tex">\hat{A}</script>可能是Hermite的，也可能不是Hermite的），其自伴算符为<script type="math/tex">\hat{A}^{+}</script>，则构造两个新算符：</p><script type="math/tex; mode=display">\hat{A}_{+}=\frac{1}{2}\left(\hat{A}+\hat{A}^{+}\right)</script><script type="math/tex; mode=display">\hat{A}_{-}=\frac{1}{2 \mathrm{i}}\left(\hat{A}-\hat{A}^{+}\right)</script><script type="math/tex; mode=display">\begin{array}{l}\hat{A}_{+}=\frac{1}{2}\left(\hat{A}+\hat{A}^{+}\right) \Rightarrow \hat{A}_{+}^{+}=\frac{1}{2}\left(\hat{A}^{+}+\hat{A}^{++}\right)=\frac{1}{2}\left(\hat{A}^{+}+\hat{A}\right)=\hat{A}_{+} \\\hat{A}_{-}=\frac{1}{2 \mathrm{i}}\left(\hat{A}-\hat{A}^{+}\right)=\frac{-\mathrm{i}}{2}\left(\hat{A}-\hat{A}^{+}\right) \Rightarrow \hat{A}_{-}^{+} \\\quad=\frac{1}{2}\left(\hat{A}^{+}-\hat{A}^{++}\right) \mathrm{i}=\frac{\mathrm{i}}{2}\left(\hat{A}^{+}-\hat{A}\right)=\frac{-\mathrm{i}}{2}\left(\hat{A}-\hat{A}^{+}\right)=\hat{A}_{-}\end{array}</script><p>由上面的运算可以知道，<script type="math/tex">\hat{A}_{+}</script>和<script type="math/tex">\hat{A}_{-}</script>都是Hermite的。</p><script type="math/tex; mode=display">\begin{array}{l}\hat{A}=\hat{A}_{+}+\mathrm{i} \hat{A}_{-} \\\hat{A}^{+}=\hat{A}_{+}-\mathrm{i} \hat{A}_{-}\end{array}</script><p>根据上面的关系式，可以快速得到一个算符的相关Hermite的算符。</p><p>例：已知粒子的坐标<script type="math/tex">\mathbf{r}</script>和动量<script type="math/tex">\mathbf{p}</script>为厄米算符，判断下列算符是否为厄米算符：<script type="math/tex">\mathbf{l} = \mathbf{r} \times \mathbf{p}</script> , <script type="math/tex">\mathbf{r} \cdot \mathbf{p}</script> , <script type="math/tex">\mathbf{p} \times \mathbf{l}</script> , <script type="math/tex">\mathbf{r} \times \mathbf{l}</script>如果不是，试构造相应的厄米算符。</p><p>解：对于<script type="math/tex">\mathbf{l}=\mathbf{r} \times \mathbf{p}</script>，有</p><script type="math/tex; mode=display">l_{x}=y p_{z}-z p_{y}</script><script type="math/tex; mode=display">l_{x}^{+}=\left(y p_{z}-z p_{y}\right)^{+}=\left(p_{z}^{+} y^{+}-p_{y}^{+} z^{+}\right)=\left(p_{z} y-p y^{z}\right)=y p_{z}-z p_{y}=l_{x}</script><p>同理</p><script type="math/tex; mode=display">l_{y}^{+}=l_{y}, \quad l_{z}^{+}=l_{z}</script><p>所以<script type="math/tex">\mathbf{l}=\mathbf{r} \times \mathbf{p}=\mathbf{l}^{+}</script>是厄米算符。</p><p>对于<script type="math/tex">\mathbf{r} \cdot \mathbf{p}</script>，有</p><script type="math/tex; mode=display">\begin{array}{l}(\mathbf{r} \cdot \mathbf{p})^{+}=\left(x p_{x}+y p_{y}+z p_{z}\right)^{+}=p_{x}^{+} x^{+}+p_{y}^{+} y^{+}+p_{z}^{+} z^{+} \\= p_{x} x+p_{y} y+p_{z} z \neq x p_{x}+y p_{y}+z p_{z}\end{array}</script><p>所以 <script type="math/tex">\mathbf{r} \cdot \mathbf{p}</script> 不是厄米算符，而</p><script type="math/tex; mode=display">\begin{aligned}(\mathbf{r} \cdot \mathbf{p})^{+} &=\mathbf{p} \cdot \mathbf{r}=p_{x} x+p_{y} y+p_{z} z=\left(x p_{x}-\mathrm{i} \hbar\right)+\left(y p_{y}-\mathrm{i} \hbar\right)+\left(z p_{z}-\mathrm{i} \hbar\right) \\&=\mathbf{r} \cdot \mathbf{p}-3 \mathrm{i} \hbar\end{aligned}</script><p>相应的厄米算符为<script type="math/tex">\frac{1}{2}[\mathbf{r} \cdot \mathbf{p}+\mathbf{p} \cdot \mathbf{r}]=\mathbf{r} \cdot \mathbf{p}-3 \mathrm{i} \hbar / 2</script>。</p><p>类似有<script type="math/tex">(\mathbf{p} \times \mathbf{l})^{+}=-(\mathbf{l} \times \mathbf{p})</script>，本身非厄米算符，但可以构造相应的厄米算符如下：</p><script type="math/tex; mode=display">\frac{1}{2}[(p \times l)-(l \times p)]=p \times l-i \hbar p</script><p>而<script type="math/tex">(\mathbf{r} \times \mathbf{l})^{+}=-(\mathbf{l} \times \mathbf{r})</script>  本身也非厄米算符，但可以构造相应的厄米算符如下:</p><script type="math/tex; mode=display">\frac{1}{2}[(\mathbf{r} \times \mathbf{l})-(\mathbf{l} \times \mathbf{r})]=\mathbf{r} \times \mathbf{l}-\mathrm{i} \hbar \mathbf{r}</script><div class="alert alert-success"><p>成功啦o(*￣▽￣*)ブ</p></div><p>The end！</p>]]></content>
     
